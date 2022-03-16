@@ -6,7 +6,7 @@ void sucet(float a, float b) {
 	float c = a + b;
 	cout << "vysledok je:" << c << endl;
 }
-void sucit(float a, float b) {
+void sucin(float a, float b) {
 	float c = a * b;
 	cout << "vysledok je:" << c << endl;
 }
@@ -43,7 +43,7 @@ int main() {
 				sucet(a, b);
 				break;
 			case 42:
-				sucit(a, b);
+				sucin(a, b);
 				break;
 			case 45:
 				rozdiel(a, b);
